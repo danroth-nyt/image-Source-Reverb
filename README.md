@@ -4,7 +4,7 @@ This Matlab code creates an impulse response based on image source modelling wit
 
 ## Getting Started
 
-Open and run the code in Matlab, a GUI will appear and audio can be loaded as the dry signal.  Room and model parameters can be changed in the GUI for different effects.
+Open and run the isGUI.m code in Matlab, a GUI will appear and audio can be loaded as the dry signal.  Room and model parameters can be changed in the GUI for different effects.
 
 ### Prerequisites
 
