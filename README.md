@@ -4,7 +4,7 @@ This Matlab code creates an impulse response based on image source modelling wit
 
 ## Getting Started
 
-Open and run the code in Matlab, the dry audio signal will play and then the convolved audio signal will play afterwards.
+Open and run the code in Matlab, a GUI will appear and audio can be loaded as the dry signal.  Room and model parameters can be changed in the GUI for different effects.
 
 ### Prerequisites
 
@@ -12,7 +12,7 @@ Make sure all files in this repository are located in the chosen Matlab director
 
 ## Running the tests
 
-Change the values in the "parameters" area in order to experiment with different reverbs using this model.
+The impulse response is automatically calculated but use "Calculate IR" just in case this does not occur.  You can play and save the IR of the model simulation using the buttons below.  Play wet audio will output the audio convolved with the IR at the modelled positions and save wet audio exports an audio file with the reverb effect active.
   
 ## Versioning
 
@@ -20,7 +20,7 @@ Version 1.0
 
 ### Current Concerns/Issues
 
-* A version using a GUI is currently being implemented for easier use.
+* GUI version can be tightened to provide easier use.
 
 ## Authors
 
@@ -28,5 +28,5 @@ Version 1.0
 
 ## Acknowledgments
 
-* Thanks to Dr. Adam Hill at University of Derby for his help and support with this project and his code for calculating wall hits.
+* Thanks to Dr. Adam Hill at University of Derby for his help and support with this project and his code for calculating wall hits and getFile.m.
 
